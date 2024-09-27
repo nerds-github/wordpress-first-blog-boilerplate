@@ -75,7 +75,7 @@ jobs:
         stale-pr-message: 'This PR has been automatically marked as stale.'
 
     - name: Automatically Label Pull Requests
-      uses: actions/labeler@v3
+      uses: actions/labeler@v5
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
 
