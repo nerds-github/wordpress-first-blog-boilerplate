@@ -112,7 +112,7 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Super Linter
-      uses: github/super-linter@v4
+      uses: github/super-linter@v7
       env:
         VALIDATE_ALL_CODEBASE: false
         DEFAULT_BRANCH: main
