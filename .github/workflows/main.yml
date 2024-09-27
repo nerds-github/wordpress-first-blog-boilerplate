@@ -107,7 +107,7 @@ jobs:
         name: codecov-umbrella
 
     - name: Upload Coverage to Coveralls
-      uses: coverallsapp/github-action@v1
+      uses: coverallsapp/github-action@v2
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
 
