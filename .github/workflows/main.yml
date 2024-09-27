@@ -155,7 +155,7 @@ jobs:
       uses: medyagh/setup-minikube@v1
 
     - name: Analyze Code with SonarCloud
-      uses: SonarSource/sonarcloud-github-action@v1.6
+      uses: SonarSource/sonarcloud-github-action@v3.0
 
     - name: Automatically Bump and Tag Versions
       uses: anothrNick/github-tag-action@v1.26.0
