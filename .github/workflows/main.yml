@@ -166,6 +166,6 @@ jobs:
       uses: ammaraskar/sphinx-action@v2
 
     - name: Setup Conda
-      uses: conda-incubator/setup-miniconda@v2
+      uses: conda-incubator/setup-miniconda@v3
       with:
         miniconda-version: "latest"
